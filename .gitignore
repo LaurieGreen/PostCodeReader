@@ -1,4 +1,5 @@
 /.gradle/
 /.idea/
 /src/test/config.properties
+/src/main/config.properties
 /build/

@@ -4,7 +4,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
 
-public class ConfigManager {
+public class ProductConfigManager {
 	// preparing our private variable for our properties object initialisation
 	private static final Properties config;
 
@@ -20,7 +20,7 @@ public class ConfigManager {
 		config = new Properties();
 		try {
 			// loading our config file using a newly instantiaded FileReader
-			config.load( new FileReader( "src/test/config.properties" ) );
+			config.load( new FileReader( "src/main/config.properties" ) );
 		} catch ( IOException e ) {
 			e.printStackTrace();
 		}
@@ -34,8 +34,16 @@ public class ConfigManager {
 		return config.getProperty( "postcodes_latest_service_endpoint" );
 	}
 
+	public static String postcodesTestFileLocation(){
+		return config.getProperty( "postcodes_test_file_location" );
+	}
+
+	public static String testEnv(){
+		return config.getProperty( "test_env" );
+	}
+
 	public static void main( String[] args ) {
-		System.out.println( ConfigManager.postcodesBaseUrl() );
-		System.out.println( ConfigManager.postcostsLatestServiceEndpoint() );
+		System.out.println( ProductConfigManager.postcodesBaseUrl() );
+		System.out.println( ProductConfigManager.postcostsLatestServiceEndpoint() );
 	}
 }

@@ -1,0 +1,42 @@
+{
+  "status": 200,
+  "result": {
+    "postcode": "G5 0HB",
+    "quality": 1,
+    "eastings": 260016,
+    "northings": 663224,
+    "country": "Scotland",
+    "nhs_ha": "Greater Glasgow and Clyde",
+    "longitude": -4.237087,
+    "latitude": 55.841859,
+    "european_electoral_region": "Scotland",
+    "primary_care_trust": "Glasgow City Community Health Partnership",
+    "region": null,
+    "lsoa": "Toryglen and Oatlands - 07",
+    "msoa": "Toryglen and Oatlands",
+    "incode": "0HB",
+    "outcode": "G5",
+    "parliamentary_constituency": "Glasgow Central",
+    "admin_district": "Glasgow City",
+    "parish": null,
+    "admin_county": null,
+    "admin_ward": "Southside Central",
+    "ced": null,
+    "ccg": "Glasgow City Community Health Partnership",
+    "nuts": "Glasgow City",
+    "codes": {
+      "admin_district": "S12000049",
+      "admin_county": "S99999999",
+      "admin_ward": "S13002974",
+      "parish": "S99999999",
+      "parliamentary_constituency": "S14000029",
+      "ccg": "S03000043",
+      "ccg_id": "043",
+      "ced": "S99999999",
+      "nuts": "TLM82",
+      "lsoa": "S01010022",
+      "msoa": "S02001888",
+      "lau2": "S30000019"
+    }
+  }
+}
